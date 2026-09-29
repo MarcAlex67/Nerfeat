@@ -1,9 +1,32 @@
 # Nerfeat
 Aplicación web de gimnasio y comida
 
-# 🏋️‍♂️ Nombre del Proyecto - App de Salud, Gym e IA Culinaria
+----
 
-> Aplicación web integral para combatir el sedentarismo mediante seguimiento de entrenamiento muscular, escáner de alimentos e IA personalizada para generación de recetas.
+## 📑 Índice de Contenidos
+
+* 1. [Introducción](#1-introducción)
+* 2. [Briefing de Ideas](#2-briefing-de-ideas)
+* 3. [Arquitectura del Software](#3-arquitectura-del-software)
+* 4. [Tecnologías Utilizadas](#4-tecnologías-utilizadas)
+* 5. [Infraestructura de Red](#5-infraestructura-de-red)
+  * 5.1. [Diagrama de Red](#51-diagrama-de-red)
+  * 5.2. [Mapa Físico](#52-mapa-físico)
+  * 5.3. [Mapa Lógico](#53-mapa-lógico)
+* 6. [Desarrollo Web](#6-desarrollo-web)
+  * 6.1. [Diseño](#61-diseño)
+  * 6.2. [Mockups](#62-mockups)
+  * 6.3. [Mapa de Navegabilidad](#63-mapa-de-navegabilidad)
+* 7. [Base de Datos](#7-base-de-datos)
+* 8. [Servicios e Infraestructura](#8-servicios-e-infraestructura)
+  * 8.1. [DNS](#81-dns)
+  * 8.2. [DHCP](#82-dhcp)
+  * 8.3. [Servidor Web (Apache)](#83-servidor-web-apache)
+  * 8.4. [Cortafuegos (Firewall)](#84-cortafuegos-firewall)
+  * 8.5. [Copias de Seguridad (Backups)](#85-copias-de-seguridad-backups)
+* 9. [Guías de Usuario](#9-guías-de-usuario)
+* 10. [Conclusiones](#10-conclusiones)
+* 11. [Bibliografía](#11-bibliografía)
 
 ---
 
