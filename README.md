@@ -3,7 +3,7 @@ Aplicación web de gimnasio y comida
 
 ----
 
-## 📑 Índice de Contenidos
+## Índice de Contenidos
 
 * 1. [Introducción](#1-introducción)
 * 2. [Briefing de Ideas](#2-briefing-de-ideas)
@@ -30,7 +30,7 @@ Aplicación web de gimnasio y comida
 
 ---
 
-## 📑 Índice de Contenidos
+## Índice de Contenidos
 
 <details>
 <summary><h2>1. Introducción</h2></summary>
@@ -48,6 +48,51 @@ Desarrollo de una plataforma web orientada a personas sedentarias que buscan un 
 * **Ranking y Progreso Muscular:** Sistema visual que analiza y clasifica los grupos musculares trabajados, permitiendo al usuario observar su evolución temporal.
 * **Escáner de Alimentos:** Herramienta de lectura/reconocimiento para desglosar ingredientes y valores nutricionales de cada alimento.
 * **IA Culinaria ("Chef Personal"):** Algoritmo inteligente que procesa el historial de alimentos escaneados para sugerir recetas optimizadas a los objetivos del usuario.
+* **Justificación**
+* En la actualidad, muchas personas que entrenan tienen dificultades para mantener una relación clara entre la intensidad de sus entrenamientos y sus necesidades nutricionales. Las aplicaciones existentes suelen ofrecer estas funciones de forma separada
+* En la actualidad, muchas personas que entrenan tienen dificultades para mantener una relación clara entre la intensidad de sus entrenamientos y sus necesidades nutricionales. Las aplicaciones existentes suelen ofrecer estas funciones de forma separada
+* **Objetivos**
+* El principal objetivo de este proyecto es hacer que esta aplicación web sea un guía para ayudar a progresar a gente que le cuesta en el gimnasio y ayudar a gente principiante en el gym.
+* **Público Objetivo**
+* Deportistas que buscan mejorar su rendimiento y composición corporal.
+
+Personas con poco tiempo libre que quieren planificar sus comidas rápidamente a partir de los ingredientes que ya tienen en casa.
+
+Usuarios principiantes en el gimnasio que necesitan guía visual sobre qué músculos están trabajando y cómo alimentarse de forma adecuada.
+5. Módulos del ciclo formativo relacionados
+(Adaptado para ciclos de la familia de Informática y Comunicaciones, como DAM/DAW/ASIR)
+
+Programación / Desarrollo Web o Móvil: Aplicación de lenguajes como Python, JavaScript/TypeScript (React, Flutter) para la lógica de la aplicación y la interfaz de usuario.
+
+Bases de Datos: Diseño e implementación de modelos relacionales o no relacionales (PostgreSQL/MongoDB) para almacenar el historial de escaneos, usuarios y planes de entrenamiento.
+
+Sistemas de Gestión Empresarial / Acceso a Datos: Integración de APIs externas (procesamiento de imágenes, datos nutricionales) y despliegue de modelos de Machine Learning.
+
+6. Materiales necesarios (físicos y lógicos)
+Materiales Físicos (Hardware):
+
+Ordenador de desarrollo (mínimo 16 GB RAM, procesador multi-núcleo).
+
+Dispositivo móvil (smartphone Android/iOS) para pruebas del escáner y la interfaz.
+
+Materiales Lógicos (Software y Herramientas):
+
+IDE y Entorno: Visual Studio Code / Android Studio.
+
+Frontend / Backend: Flutter o React Native (móvil), Node.js o Python (FastAPI/Flask) para el servidor.
+
+Base de datos: Firebase / PostgreSQL.
+
+Librerías / Servicios de IA: OpenCV o Google Vision API (reconocimiento de imágenes), OpenAI API o TensorFlow/PyTorch (algoritmo de recetas e IA).
+
+7. Recursos (Bibliografía, webgrafía y multimedia)
+Documentación Técnica y APIs:
+
+Open Food Facts API: Base de datos abierta de productos alimenticios. https://world.openfoodfacts.org/data
+
+OpenAI API Documentation: Guía de integración para modelos de lenguaje en sugerencia de recetas. https://platform.openai.com/docs
+
+Google Cloud Vision API: Documentación oficial para el reconocimiento de imágenes.
 </details>
 
 <details>
