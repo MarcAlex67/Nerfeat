@@ -44,55 +44,87 @@ Desarrollo de una plataforma web orientada a personas sedentarias que buscan un 
 <details>
 <summary><h2>2. Briefing de Ideas</h2></summary>
 <br>
+# Nerf
 
-* **Ranking y Progreso Muscular:** Sistema visual que analiza y clasifica los grupos musculares trabajados, permitiendo al usuario observar su evolución temporal.
-* **Escáner de Alimentos:** Herramienta de lectura/reconocimiento para desglosar ingredientes y valores nutricionales de cada alimento.
-* **IA Culinaria ("Chef Personal"):** Algoritmo inteligente que procesa el historial de alimentos escaneados para sugerir recetas optimizadas a los objetivos del usuario.
-* **Justificación**
-* En la actualidad, muchas personas que entrenan tienen dificultades para mantener una relación clara entre la intensidad de sus entrenamientos y sus necesidades nutricionales. Las aplicaciones existentes suelen ofrecer estas funciones de forma separada
-* En la actualidad, muchas personas que entrenan tienen dificultades para mantener una relación clara entre la intensidad de sus entrenamientos y sus necesidades nutricionales. Las aplicaciones existentes suelen ofrecer estas funciones de forma separada
-* **Objetivos**
-* El principal objetivo de este proyecto es hacer que esta aplicación web sea un guía para ayudar a progresar a gente que le cuesta en el gimnasio y ayudar a gente principiante en el gym.
-* **Público Objetivo**
-* Deportistas que buscan mejorar su rendimiento y composición corporal.
+> Plataforma integral de seguimiento deportivo y optimización nutricional mediante visión por computador e inteligencia artificial.
 
-Personas con poco tiempo libre que quieren planificar sus comidas rápidamente a partir de los ingredientes que ya tienen en casa.
+---
 
-Usuarios principiantes en el gimnasio que necesitan guía visual sobre qué músculos están trabajando y cómo alimentarse de forma adecuada.
-5. Módulos del ciclo formativo relacionados
-(Adaptado para ciclos de la familia de Informática y Comunicaciones, como DAM/DAW/ASIR)
+## Tabla de Contenidos
+- [Justificación](#-justificación)
+- [Objetivos del Proyecto](#-objetivos-del-proyecto)
+- [Público Objetivo](#-público-objetivo)
+- [Módulos del Ciclo Relacionados](#-módulos-del-ciclo-relacionados)
+- [Requisitos y Materiales](#-requisitos-y-materiales)
+- [Recursos y Referencias](#-recursos-y-referencias)
 
-Programación / Desarrollo Web o Móvil: Aplicación de lenguajes como Python, JavaScript/TypeScript (React, Flutter) para la lógica de la aplicación y la interfaz de usuario.
+---
 
-Bases de Datos: Diseño e implementación de modelos relacionales o no relacionales (PostgreSQL/MongoDB) para almacenar el historial de escaneos, usuarios y planes de entrenamiento.
+## Justificación
 
-Sistemas de Gestión Empresarial / Acceso a Datos: Integración de APIs externas (procesamiento de imágenes, datos nutricionales) y despliegue de modelos de Machine Learning.
+En la actualidad, muchas personas que entrenan tienen dificultades para mantener una relación clara entre la intensidad de sus entrenamientos y sus necesidades nutricionales. Las aplicaciones existentes suelen ofrecer estas funciones de forma separada (una app para contar calorías y otra para registrar rutinas). 
 
-6. Materiales necesarios (físicos y lógicos)
-Materiales Físicos (Hardware):
+**NutriFit AI** nace para unificar en un solo ecosistema el análisis del progreso muscular con el reconocimiento inteligente de alimentos y la generación de dietas adaptadas, facilitando la adherencia a un estilo de vida saludable mediante la automatización de procesos.
 
-Ordenador de desarrollo (mínimo 16 GB RAM, procesador multi-núcleo).
+---
 
-Dispositivo móvil (smartphone Android/iOS) para pruebas del escáner y la interfaz.
+## Objetivos del Proyecto
 
-Materiales Lógicos (Software y Herramientas):
+### Objetivo General
+Desarrollar una aplicación móvil/web funcional que automatice el registro nutricional y el seguimiento del trabajo muscular mediante técnicas de IA.
 
-IDE y Entorno: Visual Studio Code / Android Studio.
+### Objetivos Específicos
+- **Ranking y Progreso Muscular:**
+  - Desarrollar un mapa corporal interactivo que cuantifique el volumen de trabajo asignado a cada grupo muscular.
+  - Implementar métricas temporales (semanal, mensual, anual) para evaluar el equilibrio entre el entrenamiento de distintas zonas musculares y prevenir sobrecargas.
+- **Escáner de Alimentos:**
+  - Integrar un modelo de visión por computador para identificar ingredientes y alimentos empaquetados o preparados a través de la cámara del dispositivo.
+  - Conectar la detección con una base de datos nutricional para extraer calorías, macronutrientes (proteínas, carbohidratos, grasas) y micronutrientes.
+- **IA Culinaria ("Chef Personal"):**
+  - Diseñar un algoritmo generativo que procese la despensa virtual creada mediante los escaneos previos del usuario.
+  - Proponer recetas personalizadas en tiempo real ajustadas al objetivo del usuario (ganancia muscular, déficit calórico o mantenimiento).
 
-Frontend / Backend: Flutter o React Native (móvil), Node.js o Python (FastAPI/Flask) para el servidor.
+---
 
-Base de datos: Firebase / PostgreSQL.
+## Público Objetivo
 
-Librerías / Servicios de IA: OpenCV o Google Vision API (reconocimiento de imágenes), OpenAI API o TensorFlow/PyTorch (algoritmo de recetas e IA).
+- **Deportistas y entusiastas del fitness** (18-45 años) que buscan optimizar su rendimiento y composición corporal.
+- **Personas con poco tiempo libre** que requieren planificar sus comidas rápidamente a partir de los ingredientes que ya tienen en casa.
+- **Usuarios principiantes en el gimnasio** que necesitan guía visual sobre qué grupos musculares están trabajando y cómo alimentarse adecuadamente.
 
-7. Recursos (Bibliografía, webgrafía y multimedia)
-Documentación Técnica y APIs:
+---
 
-Open Food Facts API: Base de datos abierta de productos alimenticios. https://world.openfoodfacts.org/data
+## Módulos del Ciclo Relacionados
 
-OpenAI API Documentation: Guía de integración para modelos de lenguaje en sugerencia de recetas. https://platform.openai.com/docs
+- **Programación / Desarrollo Web o Móvil:** Aplicación de lenguajes como Python, JavaScript/TypeScript (React, Flutter) para la lógica de la aplicación y la interfaz de usuario.
+- **Bases de Datos:** Diseño e implementación de modelos relacionales o no relacionales (PostgreSQL/MongoDB) para almacenar el historial de escaneos, usuarios y planes de entrenamiento.
+- **Sistemas de Gestión Empresarial / Acceso a Datos:** Integración de APIs externas (procesamiento de imágenes, datos nutricionales) y despliegue de modelos de Machine Learning.
 
-Google Cloud Vision API: Documentación oficial para el reconocimiento de imágenes.
+---
+
+## Requisitos y Materiales
+
+### Materiales Físicos (Hardware)
+- Ordenador de desarrollo (mínimo 16 GB RAM, procesador multi-núcleo).
+- Dispositivo móvil (smartphone Android/iOS) para pruebas del escáner y la interfaz.
+
+### Materiales Lógicos (Software y Herramientas)
+- **IDE & Entorno:** Visual Studio Code / Android Studio
+- **Frontend / Backend:** Flutter o React Native / Node.js o Python (FastAPI/Flask)
+- **Base de Datos:** Firebase / PostgreSQL
+- **Librerías de IA & APIs:** OpenCV, Google Vision API, OpenAI API, TensorFlow/PyTorch
+
+---
+
+## Recursos y Referencias
+
+### Documentación Técnica y APIs
+- Open Food Facts API - Base de datos abierta de productos alimenticios.
+- OpenAI API Documentation - Guía de integración para modelos de lenguaje.
+- Google Cloud Vision API - Reconocimiento de imágenes.
+
+### Bibliografía
+- *National Strength and Conditioning Association (NSCA):* Principios del entrenamiento de fuerza y acondicionamiento físico.
 </details>
 
 <details>
