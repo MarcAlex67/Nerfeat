@@ -44,9 +44,6 @@ Desarrollo de una plataforma web orientada a personas sedentarias que buscan un 
 <details>
 <summary><h2>2. Briefing de Ideas</h2></summary>
 <br>
-# Nerf
-
-> Plataforma integral de seguimiento deportivo y optimización nutricional mediante visión por computador e inteligencia artificial.
 
 ---
 
