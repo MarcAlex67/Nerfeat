@@ -67,7 +67,7 @@ Desarrollar una aplicación móvil/web funcional que ayude a gente que le cuesta
 - **Escáner de Alimentos:**
   - Integrar un modelo de visión por ordenador para identificar ingredientes y alimentos empaquetados o preparados a través de la cámara del dispositivo.
   - Conectar la detección con una base de datos nutricional para extraer calorías (proteínas, carbohidratos, grasas,etc).
-- **("Chef Personal"):**
+- **"Chef Personal":**
   - Diseñar un algoritmo que procese la despensa virtual creada mediante los escaneos previos del usuario.
   - Proponer recetas personalizadas en tiempo real ajustadas al objetivo del usuario (ganancia muscular, déficit calórico o mantenimiento).
 
